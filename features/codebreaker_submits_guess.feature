@@ -2,9 +2,9 @@ Feature: code-breaker submits guess
   The code-breaker submits a guess of four numbers. The game marks the guess
   with + and - signs.
   For each number in the guess that matches the number and position of a number
-  in the secret code, the mark includes one + sign. For each number in the guess
+  in the secret code, then mark it one + sign. For each number in the guess
   that matches the number but not the position of a number in the secret code,
-  the mark includes one - sign.
+  then mark it one - sign.
 
   Scenario Outline: submit guess
     Given the secret code is "<code>"
